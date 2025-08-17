@@ -3,6 +3,8 @@
 ## Testers
  - [Fernanda Silva](https://github.com/DevzPlayer)
  - [ErickM55](https://github.com/Samy-Snap)
+ - [Pratik](https://github.com/console-ramoops)
+
 
 ## Support
  - [Telegram](https://t.me/M55_5g)
