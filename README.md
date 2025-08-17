@@ -6,7 +6,10 @@
 
 ## Support
  - [Telegram](https://t.me/M55_5g)
- 
+
+## Known issues
+ - USB-OTG is tempermental
+ - Data cant be mounted, this is a known issue with samsung
 ```
 #
 # Copyright (C) 2024 The Android Open Source Project
