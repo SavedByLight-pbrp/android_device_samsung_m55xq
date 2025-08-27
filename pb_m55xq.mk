@@ -9,8 +9,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common pb stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, device/samsung/m55xq/device.mk)
 
 PRODUCT_DEVICE := m55xq
-PRODUCT_NAME := twrp_m55xq
+PRODUCT_NAME := pb_m55xq
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M556B
 PRODUCT_MANUFACTURER := samsung

@@ -161,8 +161,13 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone50/temp"
 TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery/capacity"
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
-TW_DEVICE_VERSION := SavedByLight_Official_Stable
+TW_DEVICE_VERSION := SavedByLight_Unofficial
 MAINTAINER := SavedByLight
+BETA_BUILD := true
+
+# PBRP
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
 
 # Copy Out 
 TARGET_COPY_OUT_VENDOR := vendor
